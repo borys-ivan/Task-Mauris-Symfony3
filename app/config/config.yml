@@ -76,6 +76,14 @@ swiftmailer:
     spool: { type: memory }
 
 
+doctrine_migrations:
+    dir_name: "%kernel.root_dir%/Migrations"
+    namespace: "App\\Migrations"
+    table_name: "migration_versions"
+    name: Application Migrations
+
+
+
 # FOSRest Configuration
 fos_rest:
     body_listener: true
