@@ -1,0 +1,4 @@
+post_default:
+    path:     /
+    defaults: { _controller: "BorysBlogBundle:Default:index" }
+    methods:  GET

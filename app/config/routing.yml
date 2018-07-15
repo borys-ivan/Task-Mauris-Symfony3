@@ -1,0 +1,15 @@
+
+
+NelmioApiDocBundle:
+            resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+            prefix:   /api/doc
+
+default:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    type: annotation
+    prefix:  /
+
+
+app:
+   resource: '@AppBundle/Controller/UserController.php'
+   type: annotation
