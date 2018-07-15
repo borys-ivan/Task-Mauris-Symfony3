@@ -32,6 +32,7 @@ class UserController extends FOSRestController
      *      statusCodes={
      *          200="Returned when successful",
      *          404="Returned when the login is not found",
+     *          405="Method not allowed",
      *          500="Internal Server Error",
      *            },
      *
@@ -64,6 +65,7 @@ class UserController extends FOSRestController
      *      statusCodes={
      *          200="Returned when successful",
      *          404="Returned when the login is not found",
+     *          405="Method not allowed",
      *          500="Internal Server Error",
      *            },
      *
@@ -97,6 +99,7 @@ class UserController extends FOSRestController
      *      statusCodes={
      *          200="Returned when login visitation add successfully",
      *          404="Returned when the login is not found for visitation date registration ",
+     *          405="Method not allowed",
      *          500="Internal Server Error",
      *            },
      *
@@ -149,6 +152,7 @@ class UserController extends FOSRestController
      *      statusCodes={
      *          200="Returned when successful",
      *          404="Returned when the login is not found",
+     *          405="Method not allowed",
      *          500="Internal Server Error",
      *            },
      *
